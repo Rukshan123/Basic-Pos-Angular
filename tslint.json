@@ -4,11 +4,12 @@
     "codelyzer"
   ],
   "rules": {
+
     "align": {
       "options": [
         "parameters",
         "statements"
-      ]
+              ]
     },
     "array-type": false,
     "arrow-return-shorthand": true,
@@ -108,7 +109,9 @@
       "options": [
         "ban-keywords",
         "check-format",
-        "allow-pascal-case"
+        "allow-pascal-case",
+        true,
+        "allow-leading-underscore"
       ]
     },
     "whitespace": {
